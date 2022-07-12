@@ -46,6 +46,10 @@ p {
 
 /*  header  */
 
+header {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
 header li {
   font-size: 18px;
   font-weight: 400;
@@ -62,8 +66,28 @@ header .btn {
   display: inline-block;
   margin-left: 0.355em;
   vertical-align: 0.155em;
-  content: url("../images/icons/arrow_down.png");  
+  content: url("../images/icons/arrow_down.png");
   border: none;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: url("../images/icons/text_align_right.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+  padding-right: 0.5rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 /*  blog  */
@@ -83,7 +107,7 @@ header .btn {
 /* welcome  */
 
 #welcome {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 #welcome img {
@@ -101,8 +125,8 @@ header .btn {
 }
 
 #productservice img {
-  width: 87px;
-  height: 96px;
+  width: 100px;
+  height: 100px;
 }
 
 #productservice .btn {
