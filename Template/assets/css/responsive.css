@@ -76,5 +76,44 @@
 }
 
 /* For tablets: */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  h1 {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 45.45px;
+    text-align: center;
+  }
 
-/* @media (min-width: 768px) and (max-width: 1199.98px) {} */
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  #welcome img {
+    position: relative;
+    left: 167px;
+    top: -8.97px;
+    width: 349px;
+    height: 340.54px;
+  }
+
+  #welcome p {
+    text-align: left;
+    padding-left: 12px;
+  }
+
+  #productservice p {
+    max-width: 359px;
+  }
+
+  #footer p {
+    text-align: left;
+  }
+}
