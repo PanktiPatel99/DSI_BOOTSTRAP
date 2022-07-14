@@ -121,6 +121,7 @@ header .btn {
 /*  product service  */
 
 #productservice p {
+  min-height: 108px;
   max-width: 329px;
 }
 
